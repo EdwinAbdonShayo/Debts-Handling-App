@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Debtors</title>
+    <link rel="stylesheet" href="/Styles/debtors.css">
+</head>
+<body>
+    <header>
+        <h2>All Debts</h2>
+        <a href="#" id="add-record-btn">
+            <img src="/Images/add.png">
+            Add New Record
+        </a>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Type</th>
+                    <th>Initial Debt</th>
+                    <th>Paid Amount</th>
+                    <th>Owing Amount</th>
+                    <th>Currency</th>
+                    <th>Record Date</th>
+                    <th>Payback Date</th>
+                    <th>Payback Progress</th>
+                </tr>
+            </thead>
+            <tbody id="content">
+                <tr>
+                    <td>Khalid Hassan Thewinner</td>
+                    <td>Indivifual</td>
+                    <td>20000000.00</td>
+                    <td>2000.00</td>
+                    <td>19998000.00</td>
+                    <td>USD</td>
+                    <td>2023-09-10</td>
+                    <td>2023-09-11</td>
+                    <td>0.0001%</td>
+                </tr>
+                <tr>
+                    <td>WSC</td>
+                    <td>Organisation</td>
+                    <td>23000000.00</td>
+                    <td>0.00</td>
+                    <td>23000000.00</td>
+                    <td>TZS</td>
+                    <td>2023-06-12</td>
+                    <td>2023-06-30</td>
+                    <td>0%</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <div id="popup-form" class="popup-form">
+        <div class="form-container">
+            <span class="close-btn" id="close-btn">&times;</span>
+            <h2>Add New Record</h2>
+            <form id="new-record-form">
+
+                <input type="text" id="full-name" name="full-name" placeholder="Full Name" required>
+
+                <input type="text" id="type" name="type" placeholder="Type" required>
+
+                <input type="number" id="initial-debt" name="initial-debt" placeholder="Initial Debt" required>
+
+                <input type="number" id="paid-amount" name="paid-amount" placeholder="Paid Amount" required>
+
+                <input type="number" id="owing-amount" name="owing-amount" placeholder="Owing Amount" required>
+
+                <input type="text" id="currency" name="currency" placeholder="Currency" required>
+
+                <label for="record-date">Record Date:</label>
+                <input type="date" id="record-date" name="record-date" required>
+
+                <label for="payback-date">Payback Date:</label>
+                <input type="date" id="payback-date" name="payback-date" required>
+
+                <input type="text" id="payback-progress" name="payback-progress" placeholder="Payback Progress" required>
+
+                <button type="submit">Add Record</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/Script/debtors.js"></script>
+</body>
+</html>
