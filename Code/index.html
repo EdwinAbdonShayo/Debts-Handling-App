@@ -4,8 +4,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>IPT Project</title>
-        <link rel="stylesheet" href="/Styles/styles.css">
+        <title>Debt Handling App</title>
+        <link rel="stylesheet" href="/Code/Styles/styles.css">
     </head>
     <body>
         <header>
@@ -21,20 +21,17 @@
         <div id="popup" class="popup">
             <div class="content">
                 <h2>Select Language</h2>
-                <form>
-                    <select placeholder="Language">
-                        <option>English</option>
-                        <option>French</option>
-                        <option>Spanish</option>
-                        <option>Swahili</option>
-                        <option>Italian</option>
+                <form id="language-form">
+                    <select id="language-select" placeholder="Language">
+                        <option value="en">English</option>
+                        <option value="sw">Swahili</option>
                     </select>
-                    <button>Save</button>
+                    <button type="submit">Save</button>
                 </form>
             </div>
         </div>
 
-        <script src="/Script/script.js"></script>
+        <script src="/Code/Script/script.js"></script>
 
     </body>
 
