@@ -14,19 +14,19 @@ The project is organized as follows:
 
 Code/
 │
-├── index.html # Homepage with links to other pages and settings
-├── calculator.html # Calculator page
-├── debtors.html # Debtors management page
+├── index.html          # Homepage with links to other pages and settings
+├── calculator.html     # Calculator page
+├── debtors.html        # Debtors management page
 │
 ├── Styles/
-│ ├── styles.css # General styling for index.html
-│ ├── calculator.css # Specific styling for calculator.html
-│ ├── debtors.css # Specific styling for debtors.html
+│   ├── styles.css      # General styling for index.html
+│   ├── calculator.css  # Specific styling for calculator.html
+│   ├── debtors.css     # Specific styling for debtors.html
 │
 └── Script/
-├── script.js # Main script handling language selection and global features
-├── calculator.js # Specific script for calculator.html
-├── debtors.js # Specific script for debtors.html
+    ├── script.js       # Main script handling language selection and global features
+    ├── calculator.js   # Specific script for calculator.html
+    ├── debtors.js      # Specific script for debtors.html
 
 
 ## Getting Started
