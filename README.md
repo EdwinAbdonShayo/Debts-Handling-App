@@ -12,21 +12,21 @@ This project is a web-based application designed to help users manage their debt
 
 The project is organized as follows:
 
-Code/
-│
-├── index.html          # Homepage with links to other pages and settings
-├── calculator.html     # Calculator page
-├── debtors.html        # Debtors management page
-│
-├── Styles/
-│   ├── styles.css      # General styling for index.html
-│   ├── calculator.css  # Specific styling for calculator.html
-│   ├── debtors.css     # Specific styling for debtors.html
-│
-└── Script/
-    ├── script.js       # Main script handling language selection and global features
-    ├── calculator.js   # Specific script for calculator.html
-    ├── debtors.js      # Specific script for debtors.html
+Code/ <br/>
+│ <br/>
+├── index.html          # Homepage with links to other pages and settings <br/>
+├── calculator.html     # Calculator page <br/>
+├── debtors.html        # Debtors management page <br/>
+│ <br/>
+├── Styles/ <br/>
+│   ├── styles.css      # General styling for index.html <br/>
+│   ├── calculator.css  # Specific styling for calculator.html <br/>
+│   ├── debtors.css     # Specific styling for debtors.html <br/>
+│ <br/>
+└── Script/ <br/>
+    ├── script.js       # Main script handling language selection and global features <br/>
+    ├── calculator.js   # Specific script for calculator.html <br/>
+    ├── debtors.js      # Specific script for debtors.html <br/>
 
 
 ## Getting Started
